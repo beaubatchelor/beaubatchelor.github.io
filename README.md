@@ -1,1 +1,0 @@
-# beaubatchelor.github.io

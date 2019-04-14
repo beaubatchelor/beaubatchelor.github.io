@@ -32,10 +32,15 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/names")
-def names():
+@app.route("/financeVisuals")
+def financeVisuals():
 
-    return jsonify()
+    return render_template("financeVisuals.html")
+
+@app.route("/webApps")
+def webApps():
+
+    return render_template("webApps.html")
 
 if __name__ == "__main__":
     app.run()
